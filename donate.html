@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Donate - EstablisHER</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+
+    <h1><span class ="home-nav"><a href="Her.html"> Home</a> </span>Support Establis<span>HER</span></h1>
+    <p class="tagline">Your contribution helps girls find themselves, be themselves, and thrive.</p>
+  </header>
+
+  <section class="donate-section">
+    <h2>Make a Donation</h2>
+    <p>We appreciate every bit of support. Your donation helps us reach more schools, mentor more girls, and create lasting impact.</p>
+  <button onclick="document.getElementById('payment-details').scrollIntoView({behavior: 'smooth'});" class="scroll-btn">
+    💳 See Payment Details
+  </button>
+    <form action="https://formspree.io/f/xqalpokz"  method="POST" class="donate-form">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="amount">Donation Amount (GHS)</label>
+      <input type="number" id="amount" name="amount" required min="1">
+
+      <button type="submit">Donate Now</button>
+    </form>
+
+    <p class="thank-you-note">Can't donate now? Sharing our story helps too. 💖</p>
+  </section>
+
+ <section id="payment-details" class="payment-details">
+  <h2>Payment Details</h2>
+
+  <div class="donation-box">
+    <h3>📱 Mobile Money (MoMo)</h3>
+    <p><strong>Network:</strong> MTN</p>
+    <p><strong>Name:</strong> EstablisHER Initiative</p>
+    <p><strong>MoMo Number:</strong> 024 000 1234</p>
+  </div>
+
+  <div class="donation-box">
+    <h3🏦>Bank Transfer</h3>
+    <p><strong>Bank:</strong> Absa Bank Ghana</p>
+    <p><strong>Account Name:</strong> EstablisHER Initiative</p>
+    <p><strong>Account Number:</strong> 0123456789012</p>
+    <p><strong>Branch:</strong> Osu Branch</p>
+  </div>
+
+  <p class="thank-you-note">Thank you for being part of our mission. Every cedi counts. 💖</p>
+</section>
+
+
+  <footer>
+    <p>© 2025 EstablisHER Initiative. Thank you for your support!</p>
+  </footer>
+</body>
+</html>

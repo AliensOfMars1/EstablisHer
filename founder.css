@@ -1,0 +1,120 @@
+/* Founder Page Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fffdfd;
+  color: #333;
+}
+
+nav.founder-nav {
+  background-color: #f9edf3;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.founder-nav ul {
+  display: flex;
+  gap: 100px;
+  list-style: none;
+  padding: 10px;
+  margin: 0 20px 20px 30px;
+    text-wrap: nowrap;
+}
+
+.founder-nav li a {
+  text-decoration: none;
+  color: #cc3399;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+
+}
+
+.founder-nav li a:hover {
+  color: #e8e6e1;
+}
+
+.founder-nav li:nth-child(4) a {
+  background-color: orange;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+
+
+}
+
+.founder-nav li:nth-child(4) a::before {
+  content: "\2764 " ;
+  color: white;
+}
+
+.founder-nav li a {
+  background-color: rgb(192, 162, 104);
+  color: rgb(11, 11, 11);
+  padding: 10px 15px;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+
+.founder-page {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  padding: 40px;
+  box-sizing: border-box;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.founder-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.founder-image img {
+  width: 100%;
+  max-width: 330px;
+  height: 90%;
+  border-radius: 50px;
+  border: 1px solid #eb07cd;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: hwb(0 100% 0%);
+  padding: 1.5%;
+}
+
+.founder-content {
+  flex: 2;
+  padding-top: 10px;
+}
+
+.founder-header {
+  background-color: #cc3399;
+  color: white;
+  padding: 15px 25px;
+  margin-bottom: 20px;
+  width: 95%;
+  text-align:left;
+  border-radius: 8px;
+  margin-left: -8px;
+  
+}
+
+.founder-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+
+}
+
+
+
+
+
+
